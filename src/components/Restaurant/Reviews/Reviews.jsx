@@ -18,7 +18,7 @@ function Reviews() {
       dispatch(getReview(reduxState?._id)).then((data) =>
         setReviews(data.payload.reviews)
       );
-  }, [reduxState]);
+  }, [reduxState, dispatch]);
 
   return (
     <>

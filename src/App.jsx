@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     dispatch(getMySelf());
-  }, [localStorage]);
+  }, [dispatch]);
 
   return (
     <>

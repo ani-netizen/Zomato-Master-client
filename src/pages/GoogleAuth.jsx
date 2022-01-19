@@ -14,7 +14,7 @@ function GoogleAuth() {
         window.location.href = "/delivery";
       });
     }
-  }, [token]);
+  }, [token, dispatch]);
 
   return (
     <>
